@@ -14,6 +14,11 @@ export const BtnDelete = styled.button`
   font-weight: 700;
   border-radius: 3px;
   cursor: pointer;
+  transition: 300ms;
+  &:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+  }
 `;
 
 export const ContactStyled = styled.p`

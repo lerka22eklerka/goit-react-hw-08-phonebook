@@ -1,9 +1,10 @@
+import { HomeBox, HomeTitle } from "./Home.styled";
+
 export const Home = () => {
   return (
-    <div>
-      <h2>
-        It's the best app for storage your CONTACTS <br /> Let's start!
-      </h2>
-    </div>
+    <HomeBox>
+      <h2>Please, try to use our contact storage app.</h2>
+      <HomeTitle>HURRY UP!</HomeTitle>
+    </HomeBox>
   );
 };

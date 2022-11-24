@@ -5,8 +5,9 @@ export const FormStyled = styled.form`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 15px;
+  /* padding-left: 40px; */
 `;
 
 export const Input = styled.input`
@@ -29,4 +30,9 @@ margin-top: 10px;
 font-weight: 700;
 border-radius: 3px;
 cursor: pointer;
+transition: 300ms;
+&:hover {
+  background-color: #ff0000;
+  color: #ffffff
+}
 `;

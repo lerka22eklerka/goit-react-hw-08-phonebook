@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
-export const NavBox = styled.div`
+export const NavBox = styled.nav`
   display: flex;
   gap: 20px;
 `;
