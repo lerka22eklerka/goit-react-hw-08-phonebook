@@ -1,7 +1,6 @@
 import { ThreeDots } from 'react-loader-spinner';
 import { useSelector } from 'react-redux';
-import { getError, getIsLoading } from 'redux/selectors';
-
+import { getError, getIsLoading } from 'redux/contacts/selectors';
 
 export const Loader = () => {
   const isLoading = useSelector(getIsLoading);
@@ -14,4 +13,3 @@ export const Loader = () => {
     </div>
   );
 };
-

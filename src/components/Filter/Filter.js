@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
-import { filterContacts } from 'redux/contactsSlice';
-import { getFilter } from 'redux/selectors';
+import { filterContacts } from 'redux/contacts/contactsSlice';
+import { getFilter } from 'redux/contacts/selectors';
 import { InputStyled, Label } from './Filter.styled';
 
 export const Filter = () => {
-   const dispatch = useDispatch();
+  const dispatch = useDispatch();
   const filter = useSelector(getFilter);
-  
+
   return (
     <div>
       <Label htmlFor="filter">Find contacts by name</Label>
@@ -20,7 +20,6 @@ export const Filter = () => {
     </div>
   );
 };
-
 
 Filter.propTypes = {
   filter: PropTypes.string,

@@ -7,9 +7,9 @@ import {
   LabelStyled,
 } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { getItems } from 'redux/selectors';
-import { addContact } from 'redux/operations';
-
+import { getItems } from 'redux/contacts/selectors';
+import { addContact } from 'redux/contacts/operations';
+import toast from 'react-hot-toast';
 
 export const ContactForm = () => {
   const [userName, setUsername] = useState('');
@@ -28,13 +28,13 @@ export const ContactForm = () => {
   // console.log(contacts);
   const handleSubmit = event => {
     event.preventDefault();
-console.log(userName);
+    console.log(userName);
     if (
       contacts.some(contact => {
         return contact.name.toLowerCase() === userName.toLowerCase();
       })
     ) {
-      return alert(userName + ' is already in contacts!');
+      return toast(userName + ' is already in contacts!');
     }
 
     dispatch(addContact({ userName, number }));

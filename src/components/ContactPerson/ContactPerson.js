@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/contacts/operations';
 import { BtnDelete, ContactBox, ContactStyled } from './ContactPerson.styled';
 
-export const ContactPerson = (contact) => {
+export const ContactPerson = contact => {
   const dispatch = useDispatch();
-console.log(contact);
+  console.log(contact);
   return (
     <li>
       <ContactBox>
