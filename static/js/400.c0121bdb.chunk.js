@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgoit_react_hw_04_phonebook=self.webpackChunkgoit_react_hw_04_phonebook||[]).push([[400],{8400:function(t,e,r){r.r(e),r.d(e,{default:function(){return o}});var n=r(184),s=function(){return(0,n.jsx)("div",{children:(0,n.jsxs)("h2",{children:["It's the best app for storage your CONTACTS ",(0,n.jsx)("br",{})," Let's start!"]})})},o=function(){return(0,n.jsx)("div",{children:(0,n.jsx)(s,{})})}}}]);
-//# sourceMappingURL=400.c0121bdb.chunk.js.map
