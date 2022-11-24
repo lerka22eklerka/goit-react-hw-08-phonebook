@@ -11,7 +11,7 @@ export const NavLinkStyled = styled(NavLink)`
   text-decoration: none;
   color: black;
   transition: 300ms;
-  &:active,
+  &.active,
   &:hover {
     font-weight: 700;
     color: #ff0000;
