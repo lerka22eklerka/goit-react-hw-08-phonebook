@@ -16,7 +16,7 @@ export const BtnDelete = styled.button`
   cursor: pointer;
   transition: 300ms;
   &:hover {
-    background-color: #ff0000;
+    background-color: #ffcc99;
     color: #ffffff;
   }
 `;

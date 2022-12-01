@@ -8,7 +8,7 @@ export const Loader = () => {
   return (
     <div>
       {isLoading && !error && (
-        <ThreeDots color="#ff0000" width={45} height={45} />
+        <ThreeDots color="#10aade" width={45} height={45} />
       )}
     </div>
   );

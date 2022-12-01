@@ -7,8 +7,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
+  
 }
-
+ body > div {
+  height: 900px;
+   background-image: url('./img/decor-1-back.png');
+  background-repeat: no-repeat;
+  background-position: right 40px top 80px;
+  background-size: contain;
+  background-attachment: scroll;
+ }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

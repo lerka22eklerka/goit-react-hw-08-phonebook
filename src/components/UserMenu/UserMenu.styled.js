@@ -16,9 +16,9 @@ export const LogoutBtn = styled.button`
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 1px #000;
-  background-color: #ff0000;
+  background-color: #ffcc99;
   cursor: pointer;
-  outline: 3px solid #ff0000;
+  outline: 3px solid #ffcc99;
   transition: 300ms;
   background-image: linear-gradient(
     to top left,

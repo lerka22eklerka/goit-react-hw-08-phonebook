@@ -25,14 +25,14 @@ export const LabelStyled = styled.label`
 `;
 
 export const BtnStyled = styled.button`
-height: 30px;
-margin-top: 10px;
-font-weight: 700;
-border-radius: 3px;
-cursor: pointer;
-transition: 300ms;
-&:hover {
-  background-color: #ff0000;
-  color: #ffffff
-}
+  height: 30px;
+  margin-top: 10px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 300ms;
+  &:hover {
+    background-color: #ffcc99;
+    color: #ffffff;
+  }
 `;

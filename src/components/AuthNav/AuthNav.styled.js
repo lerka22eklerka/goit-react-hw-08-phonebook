@@ -14,6 +14,6 @@ export const NavLinkStyled = styled(NavLink)`
   &.active,
   &:hover {
     font-weight: 700;
-    color: #ff0000;
+    color: #ffcc99;
   }
 `;
