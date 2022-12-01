@@ -6,7 +6,7 @@ export const HomeBox = styled.div`
   background-image: url(${hurry});
   background-repeat: no-repeat;
   background-position-y: 70%;
-  background-position-x: 10%;
+  background-position-x: 40px;
 `;
 
 export const HomeTitle = styled.p`
