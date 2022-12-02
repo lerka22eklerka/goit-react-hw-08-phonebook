@@ -1,4 +1,4 @@
-import { HomeBox, HomeTitle } from "./Home.styled";
+import { HomeBox } from "./Home.styled";
 
 export const Home = () => {
   return (
